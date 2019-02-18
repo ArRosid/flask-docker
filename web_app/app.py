@@ -5,10 +5,10 @@ def create_app():
 
     @app.route('/')
     def index():
-        return 'Hello world 123'
+        return 'Hello World'
 
     @app.route('/about')
     def about():
-        return 'About'
+        return 'About Me'
 
     return app

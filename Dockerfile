@@ -1,5 +1,5 @@
 FROM python:3.6-alpine
-MAINTAINER Ahmad Rosid Komarudin <arrosid@gmail.com>
+MAINTAINER Ahmad Rosid Komarudin <ahmadrosid30121997@gmail.com>
 
 ENV INSTALL_PATH /web_app
 RUN mkdir -p ${INSTALL_PATH}
